@@ -12,8 +12,7 @@ set smartcase
 set number          " short form 'nu'
 set linebreak		" Break lines at word (requires Wrap lines)
 set dy=lastline		" break lines config too
-set showbreak=  	" Wrap-broken line prefix
-set textwidth=80	" Line wrap (number of cols)
+set textwidth=100	" Line wrap (number of cols)
 " set columns=80          " short form 'co' : set width of vim in terminal
 set showmatch		" Highlight matching brace  "short way is 'set sm'
 set ignorecase		" Always case-insensitive

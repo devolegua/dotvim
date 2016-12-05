@@ -10,7 +10,7 @@ let NERDTreeChDirMode=2
 let NERDTreeShowHidden=1
 let NERDTreeSortOrder=[ '^\..*/$', '/$', '^\..*', '^_.*', '\.vim$', '\.js$', '\.ts$', '\.rs$', '\.hs$', '\.h$', '\.c$', '\.s$', '\.ll$', '\.txt$', '\.html$', '\.json$', '*', '\.md$', 'README.*', '.*\.lock$', '^.*file$']
 let NERDTreeHijackNetrw=0
-let NERDTreeIgnore = ['\.png$', '\.db$', '\.jpg$', '\.o$', '\.so$', '\.cmi', '\.cmo', '\.cmx']
+let NERDTreeIgnore = ['\.ico$', '\.png$', '\.db$', '\.jpg$', '\.o$', '\.so$', '\.cmi', '\.cmo', '\.cmx']
 
 
 " ctrlP
