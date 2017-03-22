@@ -47,6 +47,8 @@ if has ("autocmd")
     filetype indent on
 endif
 
+set tags=tags;/,rusty-tags.vi
+
 " Performance
 set synmaxcol=256
 set lazyredraw " to avoid scrolling problems
@@ -58,7 +60,7 @@ inoremap "" ""<Left>
 inoremap '' ''<Left>
 inoremap `` ``<Left>
 inoremap <> <><Left>
-inoremap /** /**<CR>*/<Left><Left>
+inoremap /** /**  */<Left><Left><Left>
 inoremap [ []<Left>
 inoremap ( ()<Left>
 inoremap { {}<Left>
@@ -71,7 +73,7 @@ set sessionoptions=curdir,buffers,tabpages"
 set hidden
 
 set scrolloff=20
-set scrolljump=13
+set scrolljump=20
 " Фолдинг по отсупам
 set foldmethod=manual
 set foldlevel=3
@@ -107,6 +109,7 @@ imap ;E Error
 imap ;A Array
 imap ;OO Object
 imap ;S String
+imap ;P Promise
 
 imap ;t trait
 imap ;s struct
