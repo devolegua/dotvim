@@ -55,7 +55,10 @@ set lazyredraw " to avoid scrolling problems
 
 " `nore` mean NOT RECURSION .. for cases like `:inoremap ff fff`
 
-inoremap =++ =======
+noremap <Tab> gt
+map <S-Tab> gT
+
+inoremap =++ ============
 inoremap "" ""<Left>
 inoremap '' ''<Left>
 inoremap `` ``<Left>
