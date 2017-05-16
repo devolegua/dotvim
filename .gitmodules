@@ -31,3 +31,6 @@
 [submodule "bundle/julia-vim"]
 	path = bundle/julia-vim
 	url = git@github.com:JuliaEditorSupport/julia-vim.git
+[submodule "bundle/kotlin-vim"]
+	path = bundle/kotlin-vim
+	url = https://github.com/udalov/kotlin-vim.git

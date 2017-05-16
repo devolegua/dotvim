@@ -90,20 +90,28 @@ imap jf <Esc>l
 
 imap ;r return
 imap ;f function
-imap ;in instanceof 
+imap ;in instanceof
+imap ;im implements
+imap ;if interface
 imap ;tp typeof 
 imap ;tn throw new 
 imap ;tnt throw new TypeError(
 imap ;tne throw new Error(
 imap ;q require
 imap ;pr prototype
+imap ;pc public
+imap ;pv private
+imap ;pd protected
 imap ;e export
 imap ;en extends
+imap ;a async
+imap ;aa await
 imap ;ar arguments
 imap ;as assert
 imap ;ud undefined
 imap ;cs console
 imap ;co constructor
+imap ;c class
 imap ;do document
 imap ;de describe
 imap ;df default
@@ -114,7 +122,8 @@ imap ;OO Object
 imap ;S String
 imap ;P Promise
 
-imap ;t trait
+imap ;st static
+
 imap ;s struct
 imap ;u unsafe
 imap ;I Iterator
