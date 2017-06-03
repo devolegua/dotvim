@@ -21,7 +21,7 @@ set wildmenu
 set autoindent		" Auto-indent new lines
 set smartindent		" Enable smart-indent
 set smarttab		" Enable smart-tabs
-set shiftwidth=4	" Number of auto-indent spaces
+set shiftwidth=2	" Number of auto-indent spaces
 set softtabstop=4	" Number of spaces per Tab
 set tabstop=4
 set expandtab       " transformation tab into spaces
