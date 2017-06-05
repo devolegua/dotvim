@@ -22,8 +22,8 @@ set autoindent		" Auto-indent new lines
 set smartindent		" Enable smart-indent
 set smarttab		" Enable smart-tabs
 set shiftwidth=2	" Number of auto-indent spaces
-set softtabstop=4	" Number of spaces per Tab
-set tabstop=4
+set softtabstop=2	" Number of spaces per Tab
+set tabstop=2
 set expandtab       " transformation tab into spaces
 
 "set hls!
