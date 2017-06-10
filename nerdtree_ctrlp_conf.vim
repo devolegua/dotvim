@@ -8,7 +8,7 @@ let NERDTreeDirArrows=1 " Показываем стрелки в директо�
 let NERDTreeMinimalUI=1
 let NERDTreeChDirMode=2
 let NERDTreeShowHidden=1
-let NERDTreeSortOrder=[ '^\..*/$', '/$', '^\..*', '^_.*', '\.vim$', '\.js$', '\.ts$', '\.rs$', '\.hs$', '\.h$', '\.c$', '\.s$', '\.ll$', '\.txt$', '\.html$', '\.json$', '*', '\.md$', 'README.*', '.*\.lock$', '^.*file$']
+let NERDTreeSortOrder=[ '^\..*/$', '/$', '^\..*', '^_.*', '\.vim$', '\.js$', '\.ts$', '\.rs$', '\.h$', '\.c$', '\.s$', '\.ll$', '\.txt$', '\.html$', '\.json$', '*', '\.md$', 'README.*', '.*\.lock$', '^.*file$']
 let NERDTreeHijackNetrw=0
 let NERDTreeIgnore = ['\.class$', '\.ico$', '\.png$', '\.db$', '\.jpg$', '\.o$', '\.so$', '\.cmi', '\.cmo', '\.cmx']
 
