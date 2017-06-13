@@ -1,5 +1,5 @@
 " Set NerdTree
-set autochdir
+" set autochdir
 "nnoremap <leader>NN :NERDTreeToggle<cr>
 nnoremap ,n :NERDTreeToggle<cr>
 
