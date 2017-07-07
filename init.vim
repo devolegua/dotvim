@@ -12,9 +12,9 @@ endif
 let g:pathogen_disabled=["YouCompleteMe", "vim-racer", "tern_for_vim"]
 
 " include 
-source ~/.config/nvim/main_conf.vim
 source ~/.config/nvim/filetype.vim
 source ~/.config/nvim/functions.vim
 source ~/.config/nvim/nerdtree_ctrlp_conf.vim
 source ~/.config/nvim/slime_conf.vim
 source ~/.config/nvim/emmet.vim
+source ~/.config/nvim/main_conf.vim

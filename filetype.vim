@@ -4,9 +4,6 @@ au BufRead,BufNewFile *.s set filetype=gas
 au BufRead,BufNewFile *.asm set filetype=fasm
 au BufRead,BufNewFile *.ASM set filetype=fasm
 au BufRead,BufNewFile *.pl set filetype=prolog
-au BufRead,BufNewFile Projectfile set filetype=ruby
-au BufRead,BufNewFile *.fsi set filetype=fstar
-au BufRead,BufNewFile *.fs set filetype=ocaml
 
 let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
 

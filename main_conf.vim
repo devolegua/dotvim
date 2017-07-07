@@ -81,7 +81,8 @@ set scrolljump=20
 set foldmethod=manual
 set foldlevel=3
 " Show separate tokens
-" set list
+set list
+set listchars=space:.
 "set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<,nbsp:+
 
 
