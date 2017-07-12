@@ -25,6 +25,7 @@ let g:ctrlp_match_window = 'min:1,max:20'
 let g:ctrlp_root_markers=['.git', '.indent.pro', 'tags', 'README*', 'Cargo.toml', 'package.json', 'build.gradle']
 set wildignore+=*/target/**
 set wildignore+=*/node_modules/**
+set wildignore+=*/dest/**
 " from some blog
 "let g:ctrlp_match_window = 'bottom,order:ttb'
 " let g:ctrlp_switch_buffer = 0  "  always open files in new buffers

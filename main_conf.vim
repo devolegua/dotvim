@@ -92,6 +92,7 @@ imap jf <Esc>l
 imap ;r return
 imap ;f function
 imap ;in instanceof
+imap ;i import
 imap ;im implements
 imap ;if interface
 imap ;tp typeof 
@@ -119,7 +120,7 @@ imap ;df default
 imap ;w window
 imap ;E Error
 imap ;A Array
-imap ;OO Object
+imap ;O Object
 imap ;S String
 imap ;P Promise
 
