@@ -1,6 +1,6 @@
 ##Instalation:
 
-    git clone git@github.com:OlegTsyba/dotvim.git ~/.config/nvim
+    git clone git@github.com:olegabyst/dotvim.git ~/.config/nvim
 
 ##Create symlink:
 
