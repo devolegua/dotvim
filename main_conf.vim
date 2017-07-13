@@ -80,10 +80,6 @@ set scrolljump=20
 " Фолдинг по отсупам
 set foldmethod=manual
 set foldlevel=3
-" Show separate tokens
-set list
-set listchars=space:.
-"set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<,nbsp:+
 
 
 imap jf <Esc>l
