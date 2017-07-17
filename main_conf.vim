@@ -107,11 +107,12 @@ imap ;aa await
 imap ;ar arguments
 imap ;as assert
 imap ;ud undefined
+imap ;cn context(
 imap ;cs console
 imap ;co constructor
-imap ;c class
+imap ;c const 
 imap ;do document
-imap ;de describe
+imap ;de describe(
 imap ;df default
 imap ;w window
 imap ;E Error
