@@ -115,6 +115,7 @@ imap ;do document
 imap ;de describe(
 imap ;df default
 imap ;w window
+imap ;x expect(
 imap ;E Error
 imap ;A Array
 imap ;O Object
