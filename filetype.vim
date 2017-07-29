@@ -4,6 +4,8 @@ au BufRead,BufNewFile *.s set filetype=gas
 au BufRead,BufNewFile *.asm set filetype=fasm
 au BufRead,BufNewFile *.ASM set filetype=fasm
 
+autocmd Filetype gitcommit setlocal spell textwidth=72
+
 let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
 
 " LLVM Makefile highlighting mode
