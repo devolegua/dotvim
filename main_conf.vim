@@ -8,7 +8,7 @@ set showcmd
 set autoread        " For auto update files
 set wrap
 set smartcase
-" set relativenumber
+set relativenumber
 set number          " short form 'nu'
 set linebreak		" Break lines at word (requires Wrap lines)
 set dy=lastline		" break lines config too
@@ -75,8 +75,8 @@ set sessionoptions=curdir,buffers,tabpages"
 " когда переключаешься между ними
 set hidden
 
-set scrolloff=20
-set scrolljump=20
+set scrolloff=7
+set scrolljump=7
 " Фолдинг по отсупам
 set foldmethod=manual
 set foldlevel=3
