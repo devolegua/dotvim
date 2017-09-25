@@ -58,6 +58,9 @@ set lazyredraw " to avoid scrolling problems
 noremap <Tab> gt
 map <S-Tab> gT
 
+nnoremap <leader>e :!%:p<cr>
+nnoremap <leader>el :.w !bash<cr>
+
 inoremap =++ ============
 inoremap "" ""<Left>
 inoremap '' ''<Left>
