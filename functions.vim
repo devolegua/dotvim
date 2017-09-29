@@ -1,5 +1,5 @@
 "nnoremap <leader>QQ :call ExitAndSaveMySession()<cr>
-nnoremap ,q :call ExitAndSaveMySession()<cr>
+nnoremap <leader>q :call ExitAndSaveMySession()<cr>
 func! ExitAndSaveMySession()
   exec "mksession! ~/.mysession.vim"
   qall

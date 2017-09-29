@@ -1,7 +1,6 @@
 " Set NerdTree
-" set autochdir
-"nnoremap <leader>NN :NERDTreeToggle<cr>
-nnoremap ,n :NERDTreeToggle<cr>
+set autochdir
+nnoremap <leader>n :NERDTreeToggle<cr>
 
 let NERDTreeWinSize = 22
 let NERDTreeDirArrows=1 " Показываем стрелки в директориях
