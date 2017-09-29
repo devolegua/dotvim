@@ -60,6 +60,7 @@ map <S-Tab> gT
 
 nnoremap <leader>ee :!%:p<cr>
 nnoremap <leader>el :.w !bash<cr>
+nnoremap <leader>js :! prettier --write %<cr>
 
 inoremap =++ ============
 inoremap "" ""<Left>
@@ -140,6 +141,7 @@ imap ;pn println!(""
 " set back up dir, for storyng swap files there
 " set backupdir=~/.vim/backup//
 " set directory=~/.vim/swap//
+set nobackup
 set noswapfile " disable creating swap files
 set ic " Игнорировать регистр при поиске
 
