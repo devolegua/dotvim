@@ -11,6 +11,8 @@ endif
 
 let g:pathogen_disabled=["YouCompleteMe", "vim-racer", "tern_for_vim"]
 
+let mapleader=","
+
 " include 
 source ~/.config/nvim/filetype.vim
 source ~/.config/nvim/functions.vim
