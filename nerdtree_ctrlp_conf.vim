@@ -21,7 +21,7 @@ let g:ctrlp_match_window = 'min:1,max:20'
 "             \ 'dir': 'target\',
 "             \ 'file': '\v\.(so|o|png|db|jpg)$'
 "             \ }
-let g:ctrlp_root_markers=['.git', '.indent.pro', 'tags', 'Cargo.toml', 'package.json', 'build.gradle']
+let g:ctrlp_root_markers=['.git']
 set wildignore+=*/target/**
 set wildignore+=*/node_modules/**
 set wildignore+=*/dest/**

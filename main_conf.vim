@@ -149,10 +149,10 @@ set ic " Игнорировать регистр при поиске
 " :set shellcmdflag=-ic
 let $BASH_ENV = "~/.bash_profile"
 " for key button working for during kirilic 
-set keymap=russian-jcukenwin
-set iminsert=0
-set imsearch=0
-highlight lCursor guifg=NONE guibg=Cyan
+" set keymap=russian-jcukenwin
+" set iminsert=0
+" set imsearch=0
+" highlight lCursor guifg=NONE guibg=Cyan
 
 " for neovim
 set shell=/bin/bash
