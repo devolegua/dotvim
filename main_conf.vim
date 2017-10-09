@@ -24,7 +24,7 @@ set smarttab		" Enable smart-tabs
 set shiftwidth=2	" Number of auto-indent spaces
 set softtabstop=2	" Number of spaces per Tab
 set tabstop=2
-set expandtab       " transformation tab into spaces
+"set expandtab       " transformation tab into spaces
 
 "set hls!
 set nohlsearch
@@ -52,6 +52,9 @@ set tags=tags;/,rusty-tags.vi
 " Performance
 set synmaxcol=256
 set lazyredraw " to avoid scrolling problems
+
+set list
+set listchars=tab:·\ 
 
 " `nore` mean NOT RECURSION .. for cases like `:inoremap ff fff`
 
