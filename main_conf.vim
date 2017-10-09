@@ -63,7 +63,7 @@ map <S-Tab> gT
 
 nnoremap <leader>ee :!%:p<cr>
 nnoremap <leader>el :.w !bash<cr>
-nnoremap <leader>js :! prettier --write %<cr>
+nnoremap <leader>js :! Pret %<cr>
 
 inoremap =++ ============
 inoremap "" ""<Left>
