@@ -37,9 +37,11 @@ set showtabline=2	" Show tab bar
 set undolevels=512	" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
 
-set foldenable
-set foldmethod=indent
-set foldlevelstart=2
+set nofoldenable
+"set foldmethod=indent
+"set foldmethod=manual
+set fdm=syntax
+"set foldlevelstart=2
 
 set mouse=c   " command-line mode (see :help mouse)
 set t_Co=256
@@ -84,9 +86,6 @@ set hidden
 
 set scrolloff=7
 set scrolljump=7
-" Фолдинг по отсупам
-set foldmethod=manual
-set foldlevel=3
 
 
 imap jf <Esc>l
