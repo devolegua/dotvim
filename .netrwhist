@@ -1,11 +1,2 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/oleh/src/opensrc/js'
-let g:netrw_dirhist_2='/home/oleh/src/opensrc/js/Client'
-let g:netrw_dirhist_3='/home/oleh/src/opensrc/js/Client/Common_web'
-let g:netrw_dirhist_4='/home/oleh/src/opensrc/js/Client/Common_web/cash'
-let g:netrw_dirhist_5='/home/oleh/src/opensrc/js/Client/Common_web/cash/src'
-let g:netrw_dirhist_6='/home/oleh/src/js/TEST/_modules_koa_react/packet-reader'
-let g:netrw_dirhist_7='/home/oleh/go/src/train'
-let g:netrw_dirhist_8='/home/oleh/.config/nvim'
-let g:netrw_dirhist_9='/home/oleh/src/js/projects/exapi/node_modules/express'
+let g:netrw_dirhistmax  =0
+let g:netrw_dirhist_cnt =0
