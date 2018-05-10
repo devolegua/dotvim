@@ -2,7 +2,7 @@
 "set autochdir
 nnoremap <leader>n :NERDTreeToggle<cr>
 
-let NERDTreeWinSize = 30
+let NERDTreeWinSize = 35
 let NERDTreeDirArrows=1 " Показываем стрелки в директориях
 let NERDTreeMinimalUI=1
 let NERDTreeChDirMode=2
@@ -21,10 +21,10 @@ let g:ctrlp_match_window = 'min:1,max:20'
 "             \ 'dir': 'target\',
 "             \ 'file': '\v\.(so|o|png|db|jpg)$'
 "             \ }
-let g:ctrlp_root_markers=['.git', '.editorconfig']
+let g:ctrlp_root_markers=['.git', '.gitignore', '.editorconfig']
 set wildignore+=*/target/**
 set wildignore+=*/node_modules/**
-set wildignore+=*/dest/**
+set wildignore+=*/dist/**
 set wildignore+=*/build/**
 set wildignore+=*/public/**
 " from some blog

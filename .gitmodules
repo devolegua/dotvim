@@ -55,3 +55,6 @@
 [submodule "bundle/julia-vim"]
 	path = bundle/julia-vim
 	url = git@github.com:JuliaEditorSupport/julia-vim.git
+[submodule "bundle/vim-node"]
+	path = bundle/vim-node
+	url = git@github.com:moll/vim-node.git
