@@ -21,7 +21,7 @@ let g:ctrlp_match_window = 'min:1,max:20'
 "             \ 'dir': 'target\',
 "             \ 'file': '\v\.(so|o|png|db|jpg)$'
 "             \ }
-let g:ctrlp_root_markers=['.git', '.gitignore', '.editorconfig']
+let g:ctrlp_root_markers=['.git', '.editorconfig', 'docker-compose.*']
 set wildignore+=*/target/**
 set wildignore+=*/node_modules/**
 set wildignore+=*/dist/**
