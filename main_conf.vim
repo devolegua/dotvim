@@ -8,7 +8,7 @@ set showcmd
 set autoread        " For auto update files
 set wrap
 set smartcase
-set relativenumber
+"set relativenumber
 set number          " short form 'nu'
 set linebreak		" Break lines at word (requires Wrap lines)
 set dy=lastline		" break lines config too
