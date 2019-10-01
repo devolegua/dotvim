@@ -2,7 +2,7 @@
 "set autochdir
 nnoremap <leader>n :NERDTreeToggle<cr>
 
-let NERDTreeWinSize = 32
+let NERDTreeWinSize = 35
 let NERDTreeDirArrows=1 " Показываем стрелки в директориях
 let NERDTreeMinimalUI=1
 let NERDTreeChDirMode=2

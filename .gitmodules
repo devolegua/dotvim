@@ -61,3 +61,6 @@
 [submodule "bundle/vim-vue"]
 	path = bundle/vim-vue
 	url = git@github.com:posva/vim-vue.git
+[submodule "bundle/v-vim"]
+	path = bundle/v-vim
+	url = git@github.com:ollykel/v-vim.git
