@@ -3,6 +3,7 @@ au BufRead,BufNewFile nginx.conf set ft=nginx
 au BufRead,BufNewFile *.s set filetype=gas
 au BufRead,BufNewFile *.asm set filetype=fasm
 au BufRead,BufNewFile *.ASM set filetype=fasm
+au BufRead,BufNewFile *.kubeconfig set filetype=yaml
 
 autocmd Filetype gitcommit setlocal spell textwidth=72
 
